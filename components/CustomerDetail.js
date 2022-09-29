@@ -21,17 +21,19 @@ const CustomerDetail = ({ route, navigation }) => {
 
 const styles = {
   container: {
-    alignItems: 'center'
+    alignItems: 'center',
+    justifyContent: 'space-evenly',
+    height: 500,
   },
   btn: {
-    backgroundColor: '#c2bad8',
-    padding: 5,
-    margin: 5
+    backgroundColor: 'rgba(123, 87, 137, 0.721)',
+    padding: 7,
+    margin: 7
   },
   btnText: {
     textAlign: 'center',
     fontSize: 10,
-    color: 'blue'
+    color: 'white'
   },
 }
 

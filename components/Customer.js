@@ -16,7 +16,7 @@ function Customer({ customer, navigation }) {
 
 const styles = StyleSheet.create({
   item: {
-    backgroundColor: 'grey',
+    backgroundColor: 'rgba(224, 203, 232, 0.721)',
     padding: 10,
     marginVertical: 8,
     marginHorizontal: 16,
@@ -26,14 +26,14 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
   btn: {
-    backgroundColor: '#c2bad8',
-    padding: 5,
-    margin: 5
+    backgroundColor: 'rgba(123, 87, 137, 0.721)',
+    padding: 7,
+    margin: 7
   },
   btnText: {
     textAlign: 'center',
     fontSize: 10,
-    color: 'blue'
+    color: 'white'
   },
 });
 
